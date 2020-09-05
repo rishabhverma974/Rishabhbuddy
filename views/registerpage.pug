@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers buddy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
+    style
+        include ../static/style.css
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul style="margin-top: 0px;">
+                <li><a href="#" class="a2" id="a2_1">About</a></li>
+                <li><a href="#" class="a2" id="a2_2">Contact</a></li>
+                <li><a href="#" class="a2" id="a2_3">Services</a></li>
+                <li><a href="/trimport" class="a2" id="a2_4">Home</a></li>
+                
+                <div class="search">
+                    <input type="text" name="search" id="Search" placeholder="Search this website">
+                    <button type="submit" value="Submit" class="search_re">Search</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div id='bodybox'>
+        <div id='chatborder'>
+          
+          <p id="chatlog1" class="chatlog">&nbsp;</p>
+          <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." >
+        </div>
+    </div>
+    
+        <button type="submit" value="Submit" class="bot">Chat Here!</button>
+        
+    
+    <h1 id="Heading" class="heading" style="padding-top: 0px">Farmers Buddy</h1>
+    <form action="/registerpage" method="post" id="register_form">
+        <h3 class="heading2">Register </h3>
+        <div class="Name">
+
+            <input type="text" name="First_Name" id="first_name" placeholder="Enter your First name">
+            <input type="text" name="last_name" id="last_name" placeholder="Enter your Last name" >
+        </div>
+        <div class="date_state">
+
+            <input type="date" id="DATE" class="date" name="DOB" >
+            
+            
+            <select name="statelist" id="statelist" form="statelist" class="date">
+                <option value="Andhra Pradesh"  name = "statelist">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh" name = "statelist">Arunachal Pradesh</option>
+                <option value="Assam" name = "statelist">Assam</option>
+                <option value="Bihar" name = "statelist">Bihar</option>
+                <option value="Chattisgarh" name = "statelist">Chattisgarh</option>
+                <option value="Chandigarh" name = "statelist">Chandigarh</option>
+                <option value="Delhi" name = "statelist">Delhi</option>
+                <option value="Goa" name = "statelist">Goa</option>
+                <option value="Gujrat" name = "statelist">Gujrat</option>
+                <option value="Haryana" name = "statelist">Haryana</option>
+                <option value="Himachal Pardesh" name = "statelist">Himachal Pardesh</option>
+                <option value="Jammu Kashmir" name = "statelist">Jammu Kashmir</option>
+                <option value="Jharkhand" name = "statelist">Jharkhand</option>
+                <option value="Karnataka" name = "statelist">Karnataka</option>
+                <option value="Kerela" name = "statelist">Kerela</option>
+                <option value="Madhya Pradesh" name = "statelist">Madhya Pradesh</option>
+                <option value="Maharastra" name = "statelist">Maharastra</option>
+                <option value="Manipur" name = "statelist">Manipur</option>
+                <option value="Meghalya" name = "statelist">Meghalya</option>
+                <option value="Mizoram" name = "statelist">Mizoram</option>
+                <option value="Nagaland" name = "statelist">Nagaland</option>
+                <option value="Odisha" name = "statelist">Odisha</option>
+                <option value="Punjab" name = "statelist">Punjab</option>
+                <option value="Rajasthan" name = "statelist">Rajasthan</option>
+                <option value="Sikkim" name = "statelist">Sikkim</option>
+                <option value="Tamil Nadu" name = "statelist">Tamil Nadu</option>
+                <option value="Telangana" name = "statelist">Telangana</option>
+                <option value="Tripura" name = "statelist">Tripura</option>
+                <option value="Uttar Pradesh" name = "statelist">Uttar Pradesh</option>
+                <option value="Uttrakhand" name = "statelist">Uttrakhand</option>
+                <option value="West Bengal" name = "statelist">West Bengal</option>
+                
+                
+            </select>
+        </div>
+            <input type="text" name="City_name" id="cityname" placeholder="Enter city" class="Register_page_form">
+        <input type="text" name="Country" id="Country" placeholder="Contry" class="Register_page_form">
+        <input type="email" name="Email" id="email_address" placeholder="Email address" class="Register_page_form">
+        
+        <input type="text" placeholder="Enter Username" name="uname" required class="Register_page_form">
+        
+        <input type="password" placeholder="Enter Password" name="psw" required class="Register_page_form">
+        <ul id="password_requirements" >
+            <li>must be 8 or more characters</li>
+            <li>must contain atleast 1 albhabet and 1 numeric character</li>
+            <li>must contain at least 1 uppercase and 1 lowercase</li>
+            <li>must contain at least one special character like @,#,$,! etc.</li>
+            
+        </ul>
+        <button type="submit" id="Data_btn">Register</button>
+        <br>
+
+        <br>
+    </form>
+    
+    <footer>This is footer</footer>
+</body>
+</html>

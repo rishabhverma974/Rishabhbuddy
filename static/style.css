@@ -1,0 +1,474 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/static/back.jpg');
+    height: 100vh;
+    /* width: 100vw; */
+    
+    background-size: 1477px 957px;
+    /* height: 5000px;
+    background-repeat: no-repeat; */
+    /* position: sticky; */
+    /* opacity: 20; */
+  }
+  .heading2{
+      text-align: center;
+      padding-top: 0%;
+      color: rgb(3, 26, 88);
+      font-size: 20px;
+      font-family: 'Fugaz One', cursive;
+
+  }
+  .heading{
+      text-align: center;
+      padding-top: 0px;
+      color: rgb(3, 26, 88);
+      font-size: 40px;
+      font-family: 'Fugaz One', cursive;
+      /* background-image: linear-gradient(to right, rgb(242, 247, 248),rgb(186, 216, 224),rgb(240, 240, 243)); */
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-width: 10px;
+      border-bottom-color: black;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      text-shadow: 3px 3px 4px #a5b8be;
+      /* background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/feed/feednavigator.com/article/2019/11/27/farmers-show-anger-with-eu-wide-protests/10409179-2-eng-GB/Farmers-show-anger-with-EU-wide-protests_wrbm_large.jpg');
+      background-repeat: no-repeat;
+      background-position-x: 300px;
+      background-size: 250px 150px; */
+  
+      
+  }
+  
+  /*  .heading  
+  {
+      background-image: linear-gradient(to right, rgb(242, 247, 248),rgb(186, 216, 224),rgb(240, 240, 243));
+  }*/
+  .c1{
+      color: rgb(80, 78, 78);
+      background-color: rgb(235, 230, 230);
+      font-style: italic;
+      font-size: 20px;
+      padding-left: 20px;
+      border: 1px;
+      
+      /* border-top-left-radius: 20px; */
+      /* border-bottom-right-radius: 20px; */
+      
+    }
+    /* .c1 em{
+      position: relative;
+      animation-name: covid_animation;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: alternate;
+      animation-timing-function: ease-out;
+    }
+    @keyframes covid_animation
+    {
+      from{
+        width: 300px;
+      }
+      to 
+      {
+        width: 500px;
+      }
+    } */
+  /* this is comment */
+  /* #Covid{
+      color: rgb(167, 4, 4);
+  } */
+  #absoluteCenteredDiv{
+      
+      top:20px;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      margin: auto;
+      width:400px;
+      height: 300px;
+      text-align: center;
+      /* border: 2px solid re */
+      
+  }
+  .button{
+      background:#2ecc71;
+      width:125px;
+      padding-top:5px;
+      padding-bottom:5px;
+      color:white;
+      border-radius:4px;
+      border: #27ae60 1px solid;
+      margin-top:20px;
+      margin-bottom:20px;
+      float:left;
+      margin-left:88px;
+      font-weight:800;
+      font-size:0.8em;
+    }
+    .search_re
+    {
+      outline: none;
+      background: #2ecc71;
+      width:88px;
+      padding-top:2px;
+      padding-bottom:5px;
+      color:white;
+      border-radius:4px;
+      border: #27ae60 1px solid;
+      margin-top:5px;
+      margin-bottom:20px;
+      margin-left:3px;
+      font-weight:800;
+      font-size:0.8em;
+      
+    }
+    .search_re:hover{
+      background-color: #40b873;
+    }
+    .button:hover{
+      background:#2CC06B; 
+    }
+    .fpwd{
+        color:#ff3300;
+        text-decoration: underline;
+    }
+    #notregistered
+    {
+      font-size: 18px;
+      display: inline;
+      transition:.5s;
+    }
+    #notregistered:hover{
+      background-color: rgb(216, 88, 88);
+      font-size: larger;
+    }
+    #forgot{
+      display: inline;
+      transition: .5s;
+    }
+    #forgot:hover{
+      background-color: rgb(216, 88, 88);
+      font-size: medium;
+    }
+    p{
+      font-size:12px;
+      text-decoration: none;
+      color:#0f17a6;
+      background-color: rgb(235, 230, 230);
+    }
+  
+    h1{
+      font-size:1.5em;
+      color:#525252;
+    }
+    .box{
+      background: rgb(236 247 237 / 53%);
+      width:300px;
+      border-radius:6px;
+      margin: 10px auto 10px auto;
+      padding:0px 0px 70px 0px;
+      border: #141414 4px solid; 
+      box-shadow: -5px -5px 10px #9ab09a;
+    }
+    .username{
+      background:#ecf0f1;
+      border: #ccc 1px solid;
+      border-bottom: #ccc 2px solid;
+      padding: 8px;
+      width:250px;
+      color:#AAAAAA;
+      margin-top:10px;
+      font-size:1em;
+      border-radius:4px;
+    }
+    .loginformbuild
+    {   
+        /* font-family: 'Open Sans', sans-serif; */
+      /* background-image: linear-gradient(to right, rgb(242, 247, 248),rgb(186, 216, 224),rgb(240, 240, 243)); */
+      margin: 0 auto 0 auto;  
+      width:100%; 
+      text-align:center;
+      margin: 20px 0px 20px 0px;  
+      padding: 100px; 
+      border: 3px;
+      border-color: black;
+    }
+    element.style {
+      /* color: green; */
+      
+      background-image: url('https://www.arcgis.com/sharing/rest/content/items/99f70daaa4cc44eeb460d1cac8416f79/resources/1575236580820.jpeg?w=2626');
+  }
+  /* body{
+    background-image: linear-gradient(to right, rgb(242, 247, 248),rgb(186, 216, 224),rgb(240, 240, 243)); */
+  /*   } */
+  #trust
+  {
+    border: 20px;
+    border-block-color: rgb(189, 11, 11);
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  a:visited{
+    color:#6e2c06
+    ;
+  }
+  a:active
+  {
+    color: rgb(107, 6, 6);
+  }
+  .navbar{
+    /* display:flex; */
+    background-color: #313135;
+    height: 50px;
+    /* transition-property: background-color;
+    transition-duration: 2s; */
+    /* display: flex;
+    flex-direction: column; */
+    position: sticky;
+  
+  }
+  /* .navbar:hover{
+    background-color: white;
+  } */
+  .navbar ul{
+    overflow: auto;
+  }
+  
+  #a2_1
+  {
+    color: white;
+    /* transition: .5s; */
+  }
+  #a2_1:hover
+  {
+    /* font-size: large; */
+    color: blue;
+  
+  }
+  #a2_2
+  {
+    color: white;
+    /* transition: .5s; */
+  }
+  #a2_2:hover
+  {
+    color: blue;
+    /* font-size: large; */
+  
+  }
+  #a2_3
+  {
+    color: white;
+    /* transition: .5s; */
+  }
+  #a2_3:hover
+  {
+    color: blue;
+    /* font-size: large; */
+  
+  }
+  #a2_4
+  {
+    color: white;
+    /* transition: .5s; */
+  }
+  #a2_4:hover
+  {
+    color: blue;
+    /* font-size: large; */
+  
+  }
+  
+  
+  .navbar li{
+    float: right;
+    list-style: none;
+    padding: 12px;
+    
+    
+    margin: 2px 16px;
+    
+  }
+  .search{
+    float: left;
+    padding: 4px 2px;
+    
+    
+  }
+  #Search
+  {
+    outline: none;
+    padding: 6px 20px;
+    border-radius: 10px;
+    
+  }
+  .help{
+    background-color: rgb(235, 230, 230);
+    display: inline;
+  
+  }
+  #Covid
+  {
+    color: red;
+    transition: .5s;
+  }
+  #Covid:hover{
+    font-size: larger;
+  }
+  /* .chat
+  {
+    border: 2px #dbdff0;
+    border-style: inset;
+    width: 70px;
+    height: 30px;
+    margin: 4px;
+    position: fixed;
+    bottom: 10px;
+    right: 9px;
+    border-radius: 20px;
+    background-color: #dce7ec; */
+  /* } */
+  .bot{
+    outline: none;
+    padding-top: 4px;
+    padding-left: 8px;
+    /* border-color: #020f08; */
+    font-size: 10px;
+    font-family: 'Fugaz One', cursive;
+    border: 2px #dbdff0;
+    border-style: inset;
+    width: 75px;
+    height: 33px;
+    margin: 4px;
+    position: fixed;
+    bottom: 10px;
+    right: 9px;
+    border-radius: 20px;
+    background-color: #dce7ec;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  }
+  .bot:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  #chatborder
+  {
+    display:none;
+    position: fixed;
+    bottom: 10px;
+    right: 9px;
+  }
+  .containerform
+  {
+    border: 2px solid red;
+  }
+  
+  #Data_btn
+  {
+      display: block;
+      padding: 4px;
+      margin: 10px auto;
+      outline: none;
+      background: #2ecc71;
+      width: 88px;
+      padding-top: 2px;
+      padding-bottom: 5px;
+      color: white;
+      border-radius: 4px;
+      border: #27ae60 1px solid;
+      
+      font-weight: 800;
+      font-size: 0.8em;
+  }
+  #Data_btn:hover{
+    background-color: #40b873;
+
+  }
+  .Register_page_form{
+      display: block;
+      
+      margin: 10px auto;
+      
+      
+      outline: none;
+      background: #ecf0f1;
+      border: #ccc 1px solid;
+      border-bottom: #ccc 2px solid;
+      padding: 8px;
+      width: 558px;
+      color: #AAAAAA;
+      margin-top: 10px;
+      font-size: 1em;
+      border-radius: 4px;
+
+  }
+  .date_state{
+    width: 600px;
+    margin-left: 310px;
+
+  }
+  .Name{
+     
+    padding: 16px;
+    width: 600px;
+    color: #AAAAAA;
+    margin-top: 10px;
+    margin-left: 267px;
+  }
+  #password_requirements
+  {
+    padding-left: 319px;
+    justify-content: center;
+  }
+  .Name input{
+    outline: none;
+      background: #ecf0f1;
+      border: #ccc 1px solid;
+      border-bottom: #ccc 2px solid;
+      padding: 8px;
+      width: 278px;
+      color: #AAAAAA;
+      margin-top: 10px;
+      font-size: 1em;
+      border-radius: 4px
+  }
+  .date
+  {
+    /* display: block; */
+    padding: 8px;
+    margin: 10px auto;
+    width: 30%;
+    border-radius: 5px;
+    outline: none;
+    background: #ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width: 250px;
+    color: #AAAAAA;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 4px;
+  }
+  #register_form
+  {
+    border: #141414 4px solid;
+    box-shadow: -5px -5px 10px #9ab09a;
+    
+    margin: 12px auto;
+    max-width: 80%;
+    background: rgb(236 247 237 / 53%);
+    border-radius: 10px;
+  }
+  
+  footer{
+      background-color: rgb(85, 82, 82);
+      color: white;
+  }
